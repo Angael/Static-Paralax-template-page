@@ -13,7 +13,11 @@
   </head>
   <body>
     
-	<div class="stackElement whiteText" >
+	<header>
+	header in progress
+	</header>
+	
+	<div class="stackElement logoPadding whiteText" >
 		<div class="bgParallax" style="background-image: url('https://previews.123rf.com/images/stockbroker/stockbroker1507/stockbroker150703732/42252883-Group-Of-Business-People-Listening-To-Colleague-Addressing-Office-Meeting-Stock-Photo.jpg');">
 		</div>
 		<div class="containerTitle">
@@ -24,7 +28,7 @@
 		</div>
 	</div>
 	
-	<div class="stackElement bgGrey1">
+	<div class="stackElement smallPadding bgGrey1">
 		<div class="containerTitle">
 			<div class="column-parent">
 				<div class="column-element">
@@ -52,7 +56,7 @@
 		</div>
 	</div>
 	
-	<div class="stackElement">
+	<div class="stackElement titlePadding">
 		<div class="bgParallax" style="background-image: url('http://s.hswstatic.com/gif/future-9.jpg');">
 		</div>
 		<div class="containerTitle whiteText">
@@ -60,7 +64,8 @@
 			<h2>Kim jestem?</h2>
 		</div>
 	</div>
-	<div class="stackElement">
+	
+	<div class="stackElement smallPadding bgGrey1">
 		<div class="containerContent">
 			<div class="column-parent">
 				<div class="column-element two">
@@ -77,13 +82,42 @@
 		</div>
 	</div>
 	
-	<div class="stackElement">
+	<div class="stackElement titlePadding">
+		<div class="bgParallax" style="background-image: url('https://static.pexels.com/photos/10651/photo-1432821596592-e2c18b78144f.jpeg');">
+		</div>
 		<div class="containerTitle whiteText">
 			<h2>Co oferuje?</h2>
 		</div>
 	</div>
 	
-	<div class="stackElement">
+	<div class="stackElement smallPadding">
+		<div class="containerContent">
+			<div class="column-parent">
+				<div class="column-element two">
+					
+					<h3>Tworzenie niezawodnego kodu</h3><hr>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec ex non urna posuere tempus ut eu nunc. Donec at ligula mauris. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec mollis pulvinar convallis. Etiam rhoncus pulvinar felis, sed convallis nisl. Nam laoreet porttitor augue, vitae interdum sem tincidunt id. Phasellus ornare pulvinar elit, nec porta ante ultricies ut. Nullam at tristique purus. In eget ultricies arcu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur a quam sed ante mollis imperdiet id et velit. Nulla feugiat laoreet lectus, rhoncus mattis neque congue quis. Donec eget purus vel felis fringilla feugiat at eu metus. Aliquam lacinia libero id odio rutrum feugiat.
+
+				</div>
+				<div class="column-element two">
+					<img src="https://i.ytimg.com/vi/1M0YXFW31hg/maxresdefault.jpg" class="mainImage">
+				</div>
+			</div>
+			<div class="column-parent">
+				<div class="column-element two">
+					<img src="https://www.webworksofkc.com/wp-content/uploads/code1-684x350c.jpg" class="mainImage">
+				</div>
+				<div class="column-element two">
+					<h3>Łatwość obsługi kodu</h3>				
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec ex non urna posuere tempus ut eu nunc. Donec at ligula mauris. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec mollis pulvinar convallis. Etiam rhoncus pulvinar felis, sed convallis nisl. Nam laoreet porttitor augue, vitae interdum sem tincidunt id. Phasellus ornare pulvinar elit, nec porta ante ultricies ut. Nullam at tristique purus. In eget ultricies arcu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur a quam sed ante mollis imperdiet id et velit. Nulla feugiat laoreet lectus, rhoncus mattis neque congue quis. Donec eget purus vel felis fringilla feugiat at eu metus. Aliquam lacinia libero id odio rutrum feugiat.
+
+				</div>
+			</div>
+			
+		</div>
+	</div>
+	
+	<div class="stackElement titlePadding">
 		<div class="bgParallax" style="background-image: url('https://static.pexels.com/photos/10651/photo-1432821596592-e2c18b78144f.jpeg');">
 		</div>
 		<div class="containerTitle whiteText">
@@ -91,7 +125,7 @@
 		</div>
 	</div>
 	
-	<div class="stackElement">
+	<div class="stackElement titlePadding">
 		<div class="bgParallax" style="background-image: url('https://static.pexels.com/photos/10651/photo-1432821596592-e2c18b78144f.jpeg');">
 		</div>
 		<div class="containerTitle whiteText">
@@ -99,7 +133,7 @@
 		</div>
 	</div>
 	
-	<div class="stackElement">
+	<div class="stackElement titlePadding">
 		<div class="bgParallax" style="background-image: url('https://static.pexels.com/photos/10651/photo-1432821596592-e2c18b78144f.jpeg');">
 		</div>
 		<div class="containerTitle whiteText">
@@ -107,7 +141,7 @@
 		</div>
 	</div>
 	
-	<div class="stackElement">
+	<div class="stackElement titlePadding">
 		<div class="bgParallax" style="background-image: url('https://static.pexels.com/photos/10651/photo-1432821596592-e2c18b78144f.jpeg');">
 		</div>
 		<div class="containerTitle whiteText">

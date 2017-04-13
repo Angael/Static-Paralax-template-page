@@ -37,11 +37,25 @@ div#container{
 	position:relative;
 	height:auto;
 	width:100%;
-	padding: 100px 0px;
+	
 	overflow:hidden;
 }
-.header{
-	
+.stackElement.smallPadding{
+	padding: 10px 0px;
+}
+.stackElement.titlePadding{
+	padding: 50px 0px;
+}
+.stackElement.logoPadding{
+	padding: 100px 0px;
+}
+header{
+	opacity:0.8;
+	width:100%;
+	z-index:2;
+	background:black;
+	color:white;
+	position:fixed;
 }
 
 .column-parent{
@@ -93,12 +107,16 @@ div#container{
 .column-element.two{
 	display:block;
 	width:500px;
-	
 	padding:20px;
+}
+.column-element > .mainImage{
+	width: 100%;
+    height: auto;
 }
 .column-element img.icon{
 	width:50px;
 }
+
 .containerTitle{
 	margin:auto;
 	text-align: center;
