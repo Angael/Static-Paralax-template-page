@@ -4,6 +4,7 @@ body{
   font-family: 'Raleway', sans-serif;
   margin:0px;
 }
+
 h1{
 	font-size:140px;
 	font-weight:600;
@@ -50,13 +51,28 @@ div#container{
 	padding: 100px 0px;
 }
 header{
-	opacity:0.8;
+	background-color: rgba(0, 0, 0, 0.15);
 	width:100%;
-	z-index:2;
-	background:black;
+	z-index:10;
+	
 	color:white;
 	position:fixed;
+	padding: 0 16px;
+	
 }
+#header-navigation{
+	display:inline-block;
+	text-align: right;
+}
+#header-navigation li{
+	display:inline-block;
+	list-style:none;
+ padding-left:16px;
+}
+#header-navigation li:first-child{
+ padding-left:0px;
+}
+
 
 .column-parent{
 	display: -ms-flexbox;

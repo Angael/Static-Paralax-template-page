@@ -9,12 +9,21 @@
     <link rel="stylesheet" media='screen and (max-width: 100px)' href="stylemobile.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 	<script src="jquery-3.1.1.js"></script>
+	<script
+  src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"
+  integrity="sha256-0YPKAwZP7Mp3ALMRVB2i8GXeEndvCq3eSl/WsAl1Ryk="
+  crossorigin="anonymous"></script>
 	<script src="js/mobileGUI.js"></script>
   </head>
   <body>
     
 	<header>
-	header in progress
+	Krzysztof Widacki
+		<ul id="header-navigation">
+		<li>O mnie</li>
+		<li>Oferta</li>
+		<li>Cennik</li>
+		</ul>
 	</header>
 	
 	<div class="stackElement logoPadding whiteText" >
@@ -153,5 +162,37 @@
 	© Copyright - "twoja firma" • Designed by <u>Krzysztof Widacki</u><br>
 	Icon Pack License : <u>"PDF"</u>
 	</footer>
-  <body>
+	<body>
+	<script>
+		// so the jquery doesn't lag on every scroll event
+		var visibleHeader = false; 	
+		scrollFunction();
+		window.onscroll = function() {scrollFunction()}; //bind
+		
+		function scrollFunction() {
+			//var hT = $('#scroll-to').offset().top,
+			//hH = $('#scroll-to').outerHeight(),
+			//wH = $(window).height(),
+			//wS = $(this).scrollTop();
+			//console.log($(this).scrollTop(), visibleHeader);
+			if ($(this).scrollTop() > 100 && !visibleHeader){
+				//console.log("bottom");
+				$( "header" ).animate({				
+				backgroundColor: 'rgba(0, 0, 0, 0.85)'
+				}, {duration:500,queue:false, start:function(){
+						visibleHeader = true;
+				}});
+			} else if($(this).scrollTop() <= 100 && visibleHeader) {
+				//console.log("top");
+				$( "header" ).animate({				
+				backgroundColor: 'rgba(0, 0, 0, 0.15)'
+				}, {duration:500,queue:false, start:function(){
+						visibleHeader = false;
+				}});
+
+			}
+		}
+
+		
+	</script>
 <html>
