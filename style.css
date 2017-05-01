@@ -2,7 +2,7 @@ body{
   color:rgb(55, 55, 55);
   
   font-family: 'Raleway', sans-serif;
-  margin:0px;
+  margin:0;
 }
 
 h1{
@@ -21,8 +21,8 @@ h2{
 	font-size:60px;
 	font-weight:100;
 	font-style: normal;
-	-webkit-margin-before:0px;
-	-webkit-margin-after:0px;
+	-webkit-margin-before:0;
+	-webkit-margin-after:0;
 }
 h3{
 	
@@ -30,13 +30,6 @@ h3{
 .containerTitle p{
 	font-weight:600;
 	font-size:20px;
-}
-
-div#container{
-  position: relative;
-  margin:auto;
-  width:1200px;
-  height: auto;
 }
 .stackElement{
 	display:block;
@@ -59,13 +52,13 @@ div#container{
 	justify-content: center;
 }
 .stackElement.smallPadding{
-	padding: 10px 0px;
+	padding: 10px 0;
 }
 .stackElement.titlePadding{
-	padding: 75px 0px;
+	padding: 75px 0;
 }
 .stackElement.logoPadding{
-	padding: 200px 0px;
+	padding: 200px 0;
 }
 header{
 	background-color: rgba(0, 0, 0, 0.00);
@@ -98,7 +91,7 @@ header{
 	display:inline-block;
 	position:absolute;
 	right:50px;
-	top:0px;
+	top:0;
 }
 #header-navigation li{
 	display:inline-block;
@@ -124,7 +117,7 @@ header{
 }
 
 #header-navigation li:first-child{
- padding-left:0px;
+ padding-left:0;
 }
 
 
@@ -188,10 +181,17 @@ header{
 }
 
 .column-element.card{
-	border: solid 1px rgb(66, 66, 66);
-	border-radius:4px;
-	background:rgb(244, 244, 244);
+	/*border: solid 1px rgb(66, 66, 66);
+	border-radius:4px;*/
+	background: rgb(238, 238, 238);
 	text-align:center;
+    color: rgb(55, 55, 55);
+    padding:0;
+}
+.column-element.card h3{
+    font-size:32px;
+    margin:12px;
+    height:65px;
 }
 .column-element.card hr{
 	height: 1px;
@@ -200,11 +200,21 @@ header{
     font-size: 0;
     border: 0;
 	width:100%;
+    margin: 16px 0;
 }
-.column-element.card .price{
+.column-element.card p.price{
+	font-weight: 300;
 	font-size:30px;
 	width: 100%;
     height: auto;
+
+    margin:12px;
+}
+.column-element.card .priceDescription{
+    margin:12px;
+    font-size:20px;
+    font-weight: 300;
+
 }
 .column-element img.icon{
 	width:50px;
@@ -277,7 +287,7 @@ footer {
 }
 .contactCard *{
 	display:block;
-
+    box-sizing: border-box;
     margin:24px auto;
 }
 .contactCard input{
@@ -285,12 +295,23 @@ footer {
     height:40px;
     border-radius: 2px;
     color: #bababa;
-    border:none;
     padding: 4px 16px;
+    border:solid 1px transparent;
     border-bottom: solid 1px #bababa;
     background-color: transparent;
     font-size: large;
     line-height: 16px;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+.contactCard input:focus{
+    outline:none;
+    color: #f6f6f6;
+    border: solid 1px #bababa;
+    background-color: rgba(0,0,0,0.5);
 }
 .contactCard input[type='submit']{
     width:175px;
@@ -302,6 +323,10 @@ footer {
     background-color: transparent;
     font-size: large;
     line-height: 16px;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
     transition: 0.3s;
 }
 .contactCard input[type='submit']:hover{
@@ -321,12 +346,49 @@ footer {
     border: solid 1px #bababa;
     font-size: large;
     width:350px;
-    height:120px;
+    height:240px;
     border-radius: 2px;
+    resize:none;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+.contactCard textarea:focus{
+    outline:none;
+    color: #f6f6f6;
+    border: solid 1px #bababa;
+    background-color: rgba(0,0,0,0.5);
+}
+.contactInfo{
+    font-size: x-large;
+
 
 }
+@media all and (max-width: 480px) {
+    .contactInfo{
 
+    }
+    h1{
+        font-size: 70px;
+    }
+    #title-description{
+        font-size:27px;
+        margin:8px;
+    }
+    .stackElement.logoPadding{
+        padding: 100px 0px;
+    }
+    .column-element{
+        width:300px;
+        margin:25px;
+    }
+    .column-element img.icon{
+        width:100px;
+    }
 
+}
 
 
 

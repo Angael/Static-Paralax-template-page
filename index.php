@@ -4,16 +4,18 @@
     <title>Blog page design</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="">
+    <meta name="keywords" content="Iwona, Widacka, Psychiatra, Psycholog">
     <link rel="stylesheet" media='screen and (min-width: 100px)' href="style.css" />
-	<link href="https://fonts.googleapis.com/css?family=Raleway:100,200" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,200" rel="stylesheet">
     <link rel="stylesheet" media='screen and (max-width: 100px)' href="stylemobile.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-	<script src="jquery-3.1.1.js"></script>
-	<script
-  src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"
-  integrity="sha256-0YPKAwZP7Mp3ALMRVB2i8GXeEndvCq3eSl/WsAl1Ryk="
-  crossorigin="anonymous"></script>
-	<script src="js/mobileGUI.js"></script>
+    <script src="jquery-3.1.1.js"></script>
+    <script
+    src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"
+    integrity="sha256-0YPKAwZP7Mp3ALMRVB2i8GXeEndvCq3eSl/WsAl1Ryk="
+    crossorigin="anonymous"></script>
+    <!--<script src="js/mobileGUI.js"></script>-->
   </head>
   <body>
 
@@ -28,6 +30,8 @@
             <li><a href="#o-mnie">O mnie</a></li>
             <li><a href="#oferta">Oferta</a></li>
             <li><a href="#cennik">Cennik</a></li>
+            <li><a href="#kontakt">Kontakt</a></li>
+            <li><a href="#map">Położenie</a></li>
 		</ul>
 	</header>
 
@@ -97,7 +101,7 @@
 	</div>
 
 	<div class="stackElement titlePadding" id="oferta">
-		<div class="bgParallax" style="background-image: url('https://static.pexels.com/photos/10651/photo-1432821596592-e2c18b78144f.jpeg');">
+		<div class="bgParallax" style="background-image: url('https://thumb10.shutterstock.com/display_pic_with_logo/586786/243223303/stock-photo-man-offer-hand-and-holding-nothing-243223303.jpg');">
 		</div>
 		<div class="containerTitle whiteText">
 			<h2>Co oferuje?</h2>
@@ -135,7 +139,7 @@
 		<div class="bgParallax" style="background-image: url('https://static.pexels.com/photos/10651/photo-1432821596592-e2c18b78144f.jpeg');">
 		</div>
 		<div class="containerTitle whiteText">
-			<h2>Cennik</h2> (Który pomysł lepszy?)
+			<h2>Cennik</h2>
 		</div>
 
 	</div>
@@ -144,33 +148,31 @@
 	<div class="stackElement titlePadding">
 		<div class="containerContent">
 			<div class="column-parent">
-				<div class="column-element card">
 
+				<div class="column-element card">
 					<h3>Analiza psyhiczna</h3><hr>
 					<p class="price">30€/h</p><hr>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    <div class="priceDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
 				</div>
-				<div class="column-element card">
 
+				<div class="column-element card">
 					<h3>Graphics in progress!</h3><hr>
 					<p class="price">26€/h</p><hr>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    <div class="priceDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
 				</div>
-				<div class="column-element card">
 
+				<div class="column-element card">
 					<h3>Robienie za medium</h3><hr>
 					<p class="price">20€/h</p><hr>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    <div class="priceDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
 				</div>
-				<div class="column-element card">
 
+				<div class="column-element card">
 					<h3>Coś</h3><hr>
 					<p class="price">55€/h</p><hr>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+					<div class="priceDescription"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
 				</div>
 			</div>
-
-
 		</div>
 	</div>
 	<!--
@@ -209,7 +211,7 @@
 		</div>
 	</div>
 	-->
-	<div class="stackElement titlePadding">
+	<div class="stackElement titlePadding" id="kontakt">
 		<div class="bgParallax" style="background-image: url('http://st2.depositphotos.com/2288675/7091/i/450/depositphotos_70911643-stock-photo-dialing-telephone-keypad.jpg');">
 		</div>
 		<div class="containerTitle whiteText">
@@ -221,10 +223,12 @@
 		<div class="containerContent">
 			<div class="column-parent two centeredFlexbox">
 				<div class="column-element two" >
-					KrzysztofWidacki@gmail.com<br/>
-					Warszawa<br/>
-					ul. Ulica 87 65<br/>
-					09-121<br/>
+                    <div class="contactInfo">
+                        KrzysztofWidacki@gmail.com<br/>
+                        Warszawa<br/>
+                        ul. Ulica 87 65<br/>
+                        09-121<br/>
+                    </div>
 				</div>
 
 				<div class="column-element two">
@@ -246,32 +250,34 @@
 		</div>
 	</div>
 
-	<div class="stackElement titlePadding">
-		<div class="bgParallax" style="background-image: url('https://static.pexels.com/photos/10651/photo-1432821596592-e2c18b78144f.jpeg');">
+	<div class="stackElement titlePadding" id="map">
+		<div class="bgParallax" style="background-image: url('https://thumbs.dreamstime.com/x/street-map-113326.jpg');">
 		</div>
 		<div class="containerTitle whiteText">
 			<h2>Położenie</h2>
 		</div>
-	</div>
-
-	<div class="stackElement smallPadding">
-		<div class="containerContent">
-			<iframe
-			width="70%"
-			height="650px"
-			frameborder="0" style="border:0"
-			src="https://www.google.com/maps/embed/v1/place?key=AIzaSyB_kS8pBP4QixvP2CWk1UtWXu6MoxMZMKk
+        <br>
+        <div class="stackElement smallPadding">
+            <div class="containerContent">
+                <iframe
+                        width="70%"
+                        height="600px"
+                        frameborder="0" style="border:0"
+                        src="https://www.google.com/maps/embed/v1/place?key=AIzaSyB_kS8pBP4QixvP2CWk1UtWXu6MoxMZMKk
 			&q=Narbutta+84,+02-524+Warszawa" allowfullscreen>
-			</iframe>
+                </iframe>
 
-		</div>
-	</div>
+            </div>
+        </div>
+    </div>
+
+
 
     <footer>
 	© Copyright - "twoja firma" • Designed by <u>Krzysztof Widacki</u><br>
 	Icon Pack License : <u>"PDF"</u>
 	</footer>
-	<body>
+	</body>
 	<script>
 		// so the jquery doesn't lag on every scroll event
 		var visibleHeader = false;
@@ -304,4 +310,7 @@
 
 
 	</script>
-<html>
+</html>
+<?php
+
+?>
